@@ -55,13 +55,13 @@ There is a commented-out method called `outputPointCalculations` which can be us
 ## Further code improvements
 
 Logic:
- * Could use actual mapping data to work out whether a route is possible or not. This would also mean knowing the
- different speed limits for different parts of the route.
+ * Could use actual mapping data to work out whether a route is possible or not. This would also mean knowing the different speed limits for different parts of the route.
 
 Code:
  * When printing usage help we could dynamically figure out supported output formats in order to show to the user.
- * Refator ReaderFactory and WriteFactory such that they inherit from a base factory class which does most of the grunt work
- * Add testing
+ * Refator ReaderFactory and WriteFactory such that they inherit from a base factory class which does most of the grunt work.
+ * Encapsulate the logic into an Algorithm pattern, such that you can have different algorithms to choose from for filtering purposes.
+ * Add testing.
 
 
 ## License
